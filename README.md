@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,100:1a2740&height=160&section=header&text=ixrail%20AgentPay&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Wallets,%20budgets%20%26%20governed%20x402%20payments%20for%20AI%20agents&descAlignY=58&descSize=16" alt="ixrail AgentPay banner" width="100%" />
-
 <img src="media/icon.png" alt="ixrail AgentPay" width="96" height="96" />
 
 # ixrail AgentPay
