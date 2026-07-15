@@ -1,20 +1,34 @@
 <div align="center">
-  <img src="media/icon.png" alt="ixrail AgentPay" width="96" height="96" />
 
-  # ixrail AgentPay
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,100:1a2740&height=160&section=header&text=ixrail%20AgentPay&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Wallets,%20budgets%20%26%20governed%20x402%20payments%20for%20AI%20agents&descAlignY=58&descSize=16" alt="ixrail AgentPay banner" width="100%" />
 
-  **Give AI agents, MCP servers, and agent frameworks a wallet, a budget, and governed x402 payment rails — right from VS Code.**
+<img src="media/icon.png" alt="ixrail AgentPay" width="96" height="96" />
 
-  [![Version](https://img.shields.io/badge/version-0.2.6-05070d?style=flat-square)](CHANGELOG.md)
-  [![License: MIT](https://img.shields.io/badge/license-MIT-05070d?style=flat-square)](LICENSE)
-  [![VS Code Engine](https://img.shields.io/badge/VS%20Code-%5E1.85.0-05070d?style=flat-square)](https://code.visualstudio.com/)
-  [![Node](https://img.shields.io/badge/node-%3E%3D18-05070d?style=flat-square)](https://nodejs.org/)
-  [![Website](https://img.shields.io/badge/website-ixrail.com-05070d?style=flat-square)](https://ixrail.com)
-  [![VS Code Marketplace](https://img.shields.io/badge/VS%20Code%20Marketplace-ixrail.ixrail--agentpay-05070d?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ixrail.ixrail-agentpay)
+# ixrail AgentPay
+
+<a href="https://marketplace.visualstudio.com/items?itemName=ixrail.ixrail">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=05070d&center=true&vCenter=true&width=620&lines=Give+AI+agents+a+wallet+and+a+budget;Governed+x402+payment+rails;Signed%2C+replay-resistant+receipts;All+without+leaving+VS+Code" alt="Typing SVG" />
+</a>
+
+[![Version](https://img.shields.io/badge/version-0.2.6-05070d?style=for-the-badge)](CHANGELOG.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-05070d?style=for-the-badge)](LICENSE)
+[![VS Code Engine](https://img.shields.io/badge/VS%20Code-%5E1.85.0-05070d?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+[![Node](https://img.shields.io/badge/node-%3E%3D18-05070d?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![VS Code Marketplace](https://img.shields.io/badge/Marketplace-ixrail.ixrail-05070d?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=ixrail.ixrail)
+[![Website](https://img.shields.io/badge/website-ixrail.com-05070d?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ixrail.com)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-05070d?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![x402](https://img.shields.io/badge/protocol-x402-05070d?style=flat-square)](#x402-behavior)
+[![USDC](https://img.shields.io/badge/settlement-USDC-05070d?style=flat-square)](#real-usdc-caveats)
+[![MCP](https://img.shields.io/badge/MCP-compatible-05070d?style=flat-square)](#mcp-usage)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-05070d?style=flat-square)](#contributing)
+[![Made with](https://img.shields.io/badge/made%20with-%E2%9D%A4-05070d?style=flat-square)](https://ixrail.com)
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:05070d,100:1a2740&height=3&section=header" width="100%" />
+
+
 
 ixrail AgentPay is a VS Code extension that gives local AI agents a **wallet**, a **spending policy**, an **authenticated broker**, an **x402 payment flow**, and a **signed receipt ledger** — all without leaving the editor. It supports simulated Base Sepolia settlement for development and explicit on-chain USDC settlement for funded wallets.
 
@@ -51,13 +65,13 @@ Agent frameworks and MCP servers increasingly need to pay for the resources they
 
 ## Install, build, debug, and package
 
-The fastest way to get started is installing **ixrail AgentPay** from the VS Code Marketplace (extension ID `ixrail.ixrail-agentpay`):
+The fastest way to get started is installing **ixrail AgentPay** from the VS Code Marketplace (extension ID `ixrail.ixrail`):
 
 ```bash
-code --install-extension ixrail.ixrail-agentpay
+code --install-extension ixrail.ixrail
 ```
 
-Or search for **ixrail AgentPay** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or install directly from the [Marketplace listing](https://marketplace.visualstudio.com/items?itemName=ixrail.ixrail-agentpay).
+Or search for **ixrail AgentPay** in the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`), or install directly from the [Marketplace listing](https://marketplace.visualstudio.com/items?itemName=ixrail.ixrail).
 
 To build and run from source instead:
 
@@ -294,3 +308,9 @@ Issues and pull requests are welcome. Please run `npm run typecheck` and `npm te
 ## License
 
 [MIT](LICENSE) © 2026 ixrail — [ixrail.com](https://ixrail.com)
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,100:1a2740&height=100&section=footer" width="100%" />
+
+⭐ **If ixrail AgentPay is useful to you, consider starring the repo!** ⭐
+</div>
